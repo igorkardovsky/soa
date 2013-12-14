@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="OrderIntrefaceService" targetNamespace="http://test2/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://test2/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+<xs:schema xmlns:tns="http://test2/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://test2/" version="1.0">
+
+  <xs:element name="getOrderById" type="tns:getOrderById"/>
+
+  <xs:element name="getOrderByIdResponse" type="tns:getOrderByIdResponse"/>
+
+  <xs:complexType name="getOrderById">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getOrderByIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:order"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="order">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="description" type="xs:string"/>
+      <xs:element name="id" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getOrderByIdResponse">
+    <wsdl:part name="parameters" element="tns:getOrderByIdResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getOrderById">
+    <wsdl:part name="parameters" element="tns:getOrderById">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="OrderIntreface">
+    <wsdl:operation name="getOrderById">
+      <wsdl:input name="getOrderById" message="tns:getOrderById">
+    </wsdl:input>
+      <wsdl:output name="getOrderByIdResponse" message="tns:getOrderByIdResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="OrderIntrefaceServiceSoapBinding" type="tns:OrderIntreface">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getOrderById">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getOrderById">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getOrderByIdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OrderIntrefaceService">
+    <wsdl:port name="OrderIntrefacePort" binding="tns:OrderIntrefaceServiceSoapBinding">
+      <soap:address location="http://localhost:9090/OrderIntrefacePort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
