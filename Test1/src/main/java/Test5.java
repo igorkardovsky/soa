@@ -1,3 +1,5 @@
+//http://activemq.apache.org/how-do-i-embed-a-broker-inside-a-connection.html
+
 import org.apache.activemq.broker.BrokerPlugin;
 import org.apache.activemq.broker.BrokerService;
 import org.apache.activemq.network.NetworkConnector;
