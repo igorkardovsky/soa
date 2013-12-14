@@ -14,7 +14,7 @@ import org.apache.activemq.broker.BrokerService;
 import org.apache.activemq.broker.TransportConnector;
 import org.apache.activemq.network.NetworkConnector;
 
-
+//http://activemq.apache.org/what-is-the-difference-between-discovery-multicast-and-zeroconf.html
 public class Test12 {
 
 	public static void main(String[] args) throws Exception {
@@ -31,6 +31,7 @@ public class Test12 {
 
 		
 		ActiveMQConnectionFactory cf = new ActiveMQConnectionFactory();
+		//!!!!!!!!!!
 		cf.setBrokerURL("discovery:(multicast://default)");
 		Connection conn = cf.createConnection();
 		conn.start();
@@ -42,6 +43,7 @@ public class Test12 {
 		mp.send(tm);
 		
 		cf = new ActiveMQConnectionFactory();
+		//!!!!!!!!!!!!
 		cf.setBrokerURL("discovery:(multicast://default)");
 		conn = cf.createConnection();
 		conn.start();
