@@ -1,0 +1,80 @@
+----------------------------------------------------------------
+Wed Dec 18 19:24:42 MSK 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0143-064f-1355-000004ca0f00 
+on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+Loaded from file:/C:/Users/igor/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\Users\igor\workspace2\Test4
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 18 19:24:44 MSK 2013:
+Shutting down instance a816c00e-0143-064f-1355-000004ca0f00 on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+----------------------------------------------------------------
+Wed Dec 18 19:24:44 MSK 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 3405c0cb-0143-064f-1355-000004ca0f00 
+on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+Loaded from file:/C:/Users/igor/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\Users\igor\workspace2\Test4
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 18 19:24:44 MSK 2013:
+Shutting down instance 3405c0cb-0143-064f-1355-000004ca0f00 on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+----------------------------------------------------------------
+Wed Dec 18 19:24:44 MSK 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance d5e900f8-0143-064f-1355-000004ca0f00 
+on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+Loaded from file:/C:/Users/igor/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\Users\igor\workspace2\Test4
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 18 19:24:44 MSK 2013:
+Shutting down instance d5e900f8-0143-064f-1355-000004ca0f00 on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+----------------------------------------------------------------
+Wed Dec 18 19:24:44 MSK 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 4b81c12b-0143-064f-1355-000004ca0f00 
+on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+Loaded from file:/C:/Users/igor/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\Users\igor\workspace2\Test4
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 18 19:24:45 MSK 2013:
+Shutting down instance 4b81c12b-0143-064f-1355-000004ca0f00 on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+----------------------------------------------------------------
+Wed Dec 18 19:24:45 MSK 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 06b1817d-0143-064f-1355-000004ca0f00 
+on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
+Loaded from file:/C:/Users/igor/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\Users\igor\workspace2\Test4
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Dec 18 19:24:45 MSK 2013:
+Shutting down instance 06b1817d-0143-064f-1355-000004ca0f00 on database directory memory:C:\Users\igor\workspace2\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
