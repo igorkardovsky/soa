@@ -21,7 +21,7 @@ public class Test1 extends TestCase {
 	
 	private static Logger logger = Logger.getLogger(Test1.class.getName());
 	
-	
+
 	private EntityManagerFactory emFactory;
 
     private EntityManager entityManager;
