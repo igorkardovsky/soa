@@ -1,9 +1,12 @@
 package test2;
 //http://java.dzone.com/articles/jpa-implementation-patterns-6
 //http://stackoverflow.com/questions/3964059/jpa-default-column-name-mapping-for-manytoone-relations
+//
+//http://stackoverflow.com/questions/15425377/how-to-show-sql-parameters-in-hibernate-logimport java.util.List;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -25,7 +28,7 @@ public class Category {
 	@ManyToOne(fetch=FetchType.LAZY)
 	Category parent;
 
-	@OneToMany(fetch=FetchType.LAZY,orphanRemoval=true)
+	@OneToMany(fetch=FetchType.LAZY,orphanRemoval=true,mappedBy="parent",cascade = CascadeType.ALL)
 	List<Category> childs;
 
 	public String getGuid() {

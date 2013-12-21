@@ -13,5 +13,37 @@
         <priority value="info" />
         <appender-ref ref="console" />
     </root>
+    
+
+<logger name="org.hibernate.type.descriptor.sql.BasicBinder"> 
+    <level value="TRACE"/>
+    <appender-ref ref="console"/>
+</logger>
+<!--
+
+    <logger name="org.hibernate" additivity="false">
+    <level value="TRACE"/>
+    <appender-ref ref="console"/>
+</logger>
+
+<category name="org.hibernate.SQL" additivity="false">
+    <priority value="TRACE"/>
+    <appender-ref ref="console"/>
+</category>
+
+<category name="org.hibernate.type" additivity="false">
+    <priority value="TRACE"/>
+    <appender-ref ref="console"/>
+</category>
+
+<logger name="org.hibernate.event.def.DefaultLoadEventListener" additivity="true">
+    <level value="all"/>
+    <appender-ref ref="console"/>
+</logger>
+-->
+<logger name="org.hibernate.cache">
+   <level value="TRACE"/>
+   <appender-ref ref="console"/>
+</logger>
 
 </log4j:configuration>
