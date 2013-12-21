@@ -67,14 +67,16 @@
 								</path>
 								<taskdef name="hibernatetool" classname="org.hibernate.tool.ant.HibernateToolTask"
 									classpathref="hibernatetool.path" />
-
-								<hibernatetool destdir="c:\">
+								<mkdir dir="${project.build.directory}/generated-sources/hibernate"></mkdir>
+								<hibernatetool
+									destdir="${project.build.directory}/generated-sources/hibernate">
 									<classpath>
-										<path location="C:\Users\igor\git2\soa\Test4_1\Test4\target\classes" />
+										<path location="${project.build.directory}/classes" />
 									</classpath>
 									<jpaconfiguration persistenceunit="tutorialPU" />
-									<hbm2ddl export="true" drop="true" create="true"
-										outputfilename="helloworld.ddl" format="true" />
+									<!-- http://docs.jboss.org/tools/latest/en/hibernatetools/html/ant.html#d0e4651 -->
+									<hbm2ddl export="false" drop="false" update="false"
+										create="true" outputfilename="test1.ddl" format="true" />
 								</hibernatetool>
 								<echo
 									message="Ant target,
