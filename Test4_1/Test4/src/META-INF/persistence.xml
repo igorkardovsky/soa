@@ -26,6 +26,9 @@
 		<persistence-unit name="test2" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>test2.Category</class>
+		<class>test2.Item</class>
+		<class>test2.Sku</class>
+		<class>test2.UnitOfMeasure</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 		<property name="hibernate.connection.url" value="jdbc:derby:memory:unit-testing-jpa" />

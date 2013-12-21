@@ -5,7 +5,10 @@ package test2;
 //http://stackoverflow.com/questions/15425377/how-to-show-sql-parameters-in-hibernate-logimport java.util.List;
 
 import java.util.List;
+import java.util.UUID;
 
+import javax.persistence.Access;
+import javax.persistence.AccessType;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -17,9 +20,10 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="category")
+@Access(value=AccessType.FIELD)
 public class Category {
-	@Id
-	@Column(length=32)
+	
+
 	String guid;
 
 	@Column(length=64,nullable=false)
@@ -31,7 +35,13 @@ public class Category {
 	@OneToMany(fetch=FetchType.LAZY,orphanRemoval=true,mappedBy="parent",cascade = CascadeType.ALL)
 	List<Category> childs;
 
+	@Id
+	@Column(length=40)
+	@Access(value=AccessType.PROPERTY)
 	public String getGuid() {
+		if(guid == null){
+			guid = UUID.randomUUID().toString();
+		}
 		return guid;
 	}
 
