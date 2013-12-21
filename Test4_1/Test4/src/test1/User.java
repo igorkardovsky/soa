@@ -31,6 +31,7 @@ public class User {
     }
 
 	@ManyToMany
+@JoinColumn(name="roleid",nullable=false)
     private  Set<Role> roles = new HashSet<Role>();
 
     public boolean addRole(Role role) {
