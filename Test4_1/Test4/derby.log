@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Sat Dec 21 16:20:02 MSK 2013:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0143-1519-14a6-000004b10028 
-on database directory memory:C:\Users\igor\git2\soa\Test4_1\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@1174ec5 
+Sun Dec 22 00:38:30 MSK 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0143-16e1-7200-000004e28c48 
+on database directory memory:C:\Users\igor\git2\soa\Test4_1\Test4\unit-testing-jpa with class loader sun.misc.Launcher$AppClassLoader@21346812 
 Loaded from file:/C:/Users/igor/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_45-b18
